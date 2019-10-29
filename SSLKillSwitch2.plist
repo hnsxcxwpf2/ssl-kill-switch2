@@ -1,6 +1,7 @@
 {
 	Filter = {
 		Bundles = (
+			"com.skfly.CrackMeIos",
 			"com.apple.AuthKit",
 			"com.apple.UIKit",
 			"com.apple.itunesstored",

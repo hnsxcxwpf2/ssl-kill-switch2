@@ -3,7 +3,7 @@ Name: SSL Kill Switch 2
 Depends: mobilesubstrate, preferenceloader
 Version: 0.13
 Architecture: iphoneos-arm
-Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
-Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
-Author: Alban Diquet <nabla.c0d3@gmail.com>
+Description: 
+Maintainer: 魏鹏飞 <491328576@qq.com>
+Author: 魏鹏飞<491328576@qq.com>
 Section: Tweaks

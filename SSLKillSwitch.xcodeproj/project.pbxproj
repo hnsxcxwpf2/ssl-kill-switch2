@@ -13,6 +13,8 @@
 		8C23122C1B50DC670057C459 /* SSLKillSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C23122B1B50DC670057C459 /* SSLKillSwitch.m */; };
 		8C2312341B50EB030057C459 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C2312321B50EB030057C459 /* fishhook.c */; };
 		8C2312351B50EB030057C459 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2312331B50EB030057C459 /* fishhook.h */; };
+		C77620782368524000F775F0 /* skfly_utility.h in Headers */ = {isa = PBXBuildFile; fileRef = C77620762368524000F775F0 /* skfly_utility.h */; };
+		C77620792368524000F775F0 /* skfly_utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C77620772368524000F775F0 /* skfly_utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		8C23122B1B50DC670057C459 /* SSLKillSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLKillSwitch.m; sourceTree = "<group>"; };
 		8C2312321B50EB030057C459 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
 		8C2312331B50EB030057C459 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		C77620762368524000F775F0 /* skfly_utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skfly_utility.h; sourceTree = "<group>"; };
+		C77620772368524000F775F0 /* skfly_utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skfly_utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		8C2312051B50DB7A0057C459 = {
 			isa = PBXGroup;
 			children = (
+				C77620752368524000F775F0 /* public */,
 				8C2312111B50DB7B0057C459 /* SSLKillSwitch */,
 				8C23121E1B50DB7B0057C459 /* SSLKillSwitchTests */,
 				8C2312101B50DB7B0057C459 /* Products */,
@@ -119,6 +124,15 @@
 			name = fishhook;
 			sourceTree = "<group>";
 		};
+		C77620752368524000F775F0 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				C77620762368524000F775F0 /* skfly_utility.h */,
+				C77620772368524000F775F0 /* skfly_utility.m */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -126,6 +140,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77620782368524000F775F0 /* skfly_utility.h in Headers */,
 				8C2312151B50DB7B0057C459 /* SSLKillSwitch.h in Headers */,
 				8C2312351B50EB030057C459 /* fishhook.h in Headers */,
 			);
@@ -227,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77620792368524000F775F0 /* skfly_utility.m in Sources */,
 				8C2312341B50EB030057C459 /* fishhook.c in Sources */,
 				8C23122C1B50DC670057C459 /* SSLKillSwitch.m in Sources */,
 			);
